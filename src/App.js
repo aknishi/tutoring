@@ -6,6 +6,8 @@ import Features from './homepage/Features';
 import Languages from './homepage/Languages';
 import Reviews from './homepage/Reviews';
 import Booking from './homepage/Booking';
+import Footer from './homepage/Footer';
+import Popup from './homepage/Popup';
 
 class App extends Component {
   render() {
@@ -17,6 +19,8 @@ class App extends Component {
         <Languages />
         <Reviews />
         <Booking />
+        <Footer />
+        <Popup />
       </div>
     );
   }

@@ -7,8 +7,9 @@ export default class Header extends Component {
       <header className="header" id="header">
         <div className="header__text-box">
             <h1 className="heading-primary">
-                <span className="heading-primary--main">Tutoring</span>
-                <span className="heading-primary--sub">Learning languages</span>
+                <span className="heading-primary--main">Language</span>
+                <span className="heading-primary--main">Learning</span>
+                <span className="heading-primary--sub">for traveling</span>
             </h1>
             <a href="#section-lang" className="btn btn--white btn--animated">Book sessions</a>
         </div>
