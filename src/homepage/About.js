@@ -23,7 +23,7 @@ export default class About extends Component {
             <p className="paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores explicabo accusamus quod illo non optio iusto, alias totam quas fugit reprehenderit tempore eum, cum eaque vero dignissimos quis excepturi temporibus.
             </p>
-            <h3 className="heading-tertiary u-margin-bottom-small">You will be able to read and find directions</h3>
+            <h3 className="heading-tertiary u-margin-bottom-small">You will be able to read directions and discover new places</h3>
             <p className="paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi distinctio explicabo cupiditate at officia magni praesentium.
             </p>
