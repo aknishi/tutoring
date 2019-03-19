@@ -5,6 +5,7 @@ import About from './homepage/About';
 import Features from './homepage/Features';
 import Languages from './homepage/Languages';
 import Reviews from './homepage/Reviews';
+import Booking from './homepage/Booking';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Features />
         <Languages />
         <Reviews />
+        <Booking />
       </div>
     );
   }
