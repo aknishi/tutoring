@@ -23,6 +23,7 @@ export default class Navigation extends Component {
     const listItems = items.map(([text, link]) => (
       <li className="navigation__item"
            onClick={() => this.toggle()}
+           key={text}
       >
         <a href={`#section-${link}`} className="navigation__link">
         <span>01</span>{text}</a>
@@ -31,8 +32,8 @@ export default class Navigation extends Component {
 
     return (
       <div className="navigation">
-        <input type="checkbox" className="navigation__checkbox" id="navi-toggle" checked={this.state.checked}/>
-        <label htmlFor="navi-toggle" className="navigation__button" onClick={() => this.toggle()}>
+        <input type="checkbox" className="navigation__checkbox" id="navi-toggle" checked={this.state.checked} onChange={() => this.toggle()}/>
+        <label htmlFor="navi-toggle" className="navigation__button">
         <span className="navigation__icon">&nbsp;</span>
         </label>
         <div className="navigation__background">&nbsp;</div>

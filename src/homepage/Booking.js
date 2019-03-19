@@ -1,7 +1,31 @@
 import React, { Component } from 'react'
 import '../sass/main.scss';
+import Dropdown from './Dropdown';
 
 export default class Booking extends Component {
+  constructor() {
+    super()
+
+    this.state = {
+      languages: [
+        {
+          id: 0,
+          lang: 'Spanish',
+          selected: false,
+        },
+        {
+          id: 1,
+          lang: 'Japanese',
+          selected: false,
+        },
+        {
+          id: 2,
+          lang: 'English',
+          selected: false,
+        }
+      ]
+    }
+  }
   render() {
     return (
       <section className="section-booking" id="section-booking">
@@ -21,6 +45,14 @@ export default class Booking extends Component {
                 <div className="form__group">
                   <input type="email" className="form__input" placeholder="Email address" id="email" required />
                   <label htmlFor="email" className="form__label">Email address</label>
+                </div>
+                <div className="form__group u-margin-bottom-medium">
+                  <div className="form__select-group">
+                    <Dropdown
+                      title="Select Language"
+                      list={this.state.languages}
+                    />
+                  </div>
                 </div>
                 <div className="form__group u-margin-bottom-medium">
                   <div className="form__radio-group">

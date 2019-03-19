@@ -24,7 +24,7 @@ export default class Popup extends Component {
                     meliore te his. Tempor conceptam in ius, sed probo laudem inimicus ex. Ius at torquatos reformidans,
                     sea ne assentior philosophia, wisi epicurei at mel. Simul putant delicatissimi cu nec.
                 </p>
-                <a href="#section-languages" className="btn btn--green">Book Now</a>
+                <a href="#section-booking" className="btn btn--green">Book Now</a>
 
               </div>
         </div>
