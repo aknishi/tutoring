@@ -39,6 +39,9 @@ export default class Languages extends Component {
                     <p className="card__price-value">
                       $40
                     </p>
+                    <p className="card__price-only">
+                      / hr.
+                    </p>
                   </div>
                   <a href="#popup" className="btn btn--white">Book now!</a>
                 </div>
@@ -73,6 +76,9 @@ export default class Languages extends Component {
                     <p className="card__price-value">
                       $35
                     </p>
+                    <p className="card__price-only">
+                      / hr.
+                    </p>
                   </div>
                   <a href="#popup" className="btn btn--white">Book now!</a>
                 </div>
@@ -106,6 +112,9 @@ export default class Languages extends Component {
                     </p>
                     <p className="card__price-value">
                       $40
+                    </p>
+                    <p className="card__price-only">
+                      / hr.
                     </p>
                   </div>
                   <a href="#popup" className="btn btn--white">Book now!</a>
