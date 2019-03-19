@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import logo from './img/logo.svg';
 import './css/App.css';
-import Header from './components/Header'
+import Header from './homepage/Header';
+import About from './homepage/About';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header>
-          <Header />
-        </header>
+      <div>
+        <Header />
+        <About />
       </div>
     );
   }
