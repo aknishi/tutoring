@@ -27,7 +27,7 @@ export default class About extends Component {
             <p className="paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi distinctio explicabo cupiditate at officia magni praesentium.
             </p>
-            <a href="#header" className="btn-text">Learn more &rarr;</a>
+            <a href="#section-lang" className="btn-text">Learn more &rarr;</a>
           </div>
           <div className="col-1-of-2">
             <div className="composition">
