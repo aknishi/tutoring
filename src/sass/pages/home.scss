@@ -1,6 +1,6 @@
 .section-about {
     background-color: $color-grey-light-1;
-    padding: 25rem 0;
+    padding: 25rem 2rem;
     margin-top: -20vh;
 
     @include respond(tab-port) {
@@ -10,7 +10,7 @@
 }
 
 .section-features {
-    padding: 20rem 0;
+    padding: 20rem 2rem;
     background-image: linear-gradient(to right bottom, rgba($color-header-light, 0.8), rgba($color-header-dark, 0.8)), url("../img/nat.jpg");
     background-size: cover;
     background-position: top;
