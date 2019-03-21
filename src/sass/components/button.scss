@@ -47,6 +47,11 @@
         }
     }
 
+    &--white-drk-hov:hover {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+
     &--dark {
         background-color: $color-primary;
         color: $color-white;

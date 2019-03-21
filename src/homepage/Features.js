@@ -21,7 +21,7 @@ export default class Features extends Component {
               <i className="feature-box__icon icon-basic-compass"></i>
               <h3 className="heading-tertiary u-margin-bottom-small">Be adventurous</h3>
               <p className="feature-box__text">
-                Be readu tp jump to your next adventure. Life is short so talk to strangers and learn new things.
+                Be ready to jump to your next adventure. Life is short so talk to strangers and learn new things.
               </p>
             </div>
           </div>

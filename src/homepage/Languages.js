@@ -43,7 +43,7 @@ export default class Languages extends Component {
                       / hr.
                     </p>
                   </div>
-                  <a href="#popup" className="btn btn--white">Book now!</a>
+                  <a href="#popup" className="btn btn--white btn--white-drk-hov">Book now!</a>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ export default class Languages extends Component {
                       / hr.
                     </p>
                   </div>
-                  <a href="#popup" className="btn btn--white">Book now!</a>
+                  <a href="#popup" className="btn btn--white btn--white-drk-hov">Book now!</a>
                 </div>
               </div>
             </div>
