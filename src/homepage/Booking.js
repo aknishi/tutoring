@@ -68,10 +68,10 @@ export default class Booking extends Component {
                       <span className="form__radio-button"></span>
                       Group Tutoring
                     </label>
-                  </div>
+                  </div>``
                 </div>
                 <div className="form__group">
-                  <button className="btn btn--green">Next step &rarr;</button>
+                  <button className="btn btn--dark">Next step &rarr;</button>
                 </div>
               </form>
             </div>

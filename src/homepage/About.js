@@ -21,11 +21,11 @@ export default class About extends Component {
           <div className="col-1-of-2">
             <h3 className="heading-tertiary u-margin-bottom-small">You will be able to talk with locals</h3>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores explicabo accusamus quod illo non optio iusto, alias totam quas fugit reprehenderit tempore eum, cum eaque vero dignissimos quis excepturi temporibus.
+              Best way to experience a country is be able to interact with locals. This program will help you not only be able to communicate, but also discover places only local people know. You have to immerse in the culture to have a full experience.
             </p>
             <h3 className="heading-tertiary u-margin-bottom-small">You will be able to read directions and discover new places</h3>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi distinctio explicabo cupiditate at officia magni praesentium.
+              People visiting a country where they don't speak their same language tend get lost when discovering new places. This program will teach you the basics for getting around without getting lost.
             </p>
             <a href="#section-lang" className="btn-text">Learn more &rarr;</a>
           </div>

@@ -40,9 +40,14 @@
         &::after {
             background-color: $color-white;
         }
+
+        &:hover {
+            background: $color-secondary-light;
+            color: $color-primary;
+        }
     }
 
-    &--green {
+    &--dark {
         background-color: $color-primary;
         color: $color-white;
 

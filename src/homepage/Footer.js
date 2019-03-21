@@ -19,7 +19,7 @@ export default class Footer extends Component {
           </div>
           <div className="col-1-of-2">
             <p className="footer__copywright">
-              Built by <a href="#aknishi" className="footer__link">Adrian Kawanishi</a>. Copywright &copy; by Adrian Kawanishi. A credit to the original designer Jonas Schmedtman from the Advanced CSS Tutorial.
+              Built by <a href="http://www.adriankawanishi.com" className="footer__link">Adrian Kawanishi</a>. Copywright &copy; by Adrian Kawanishi. A credit to designer Jonas Schmedtman for design ideas.
             </p>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default class Reviews extends Component {
           <div className="review">
             <figure className="review__shape">
               <img src={img1} alt="Person on a tour" className="review__img" />
-              <figcaption className="review__caption">Lucy Smith</figcaption>
+              <figcaption className="review__caption">Lucy Miller</figcaption>
             </figure>
             <div className="review__text ">
               <h3 className="heading-tertiary u-margin-bottom-small ">I had the best 3 months thanks to this program</h3>
@@ -32,7 +32,7 @@ export default class Reviews extends Component {
           <div className="review">
             <figure className="review__shape">
               <img src={img2} alt="Person on a tour" className="review__img" />
-              <figcaption className="review__caption">Jack Johnson</figcaption>
+              <figcaption className="review__caption">Justin Brown</figcaption>
             </figure>
             <div className=" review__text ">
               <h3 className="heading-tertiary u-margin-bottom-small ">I met the love of my life</h3>

@@ -11,7 +11,7 @@
 
 .section-features {
     padding: 20rem 0;
-    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url("../img/nat.jpg");
+    background-image: linear-gradient(to right bottom, rgba($color-header-light, 0.8), rgba($color-header-dark, 0.8)), url("../img/nat.jpg");
     background-size: cover;
     background-position: top;
     transform: skewY(-7deg);
@@ -62,11 +62,11 @@
 
 .section-booking {
     padding: 15rem 0;
-    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+    background: linear-gradient(to left bottom, $color-secondary-light, $color-secondary-dark);
 }
 
 .booking {
-    background-image: linear-gradient(105deg, rgba($color-white, 0.9) 0%, rgba($color-white, 0.9) 50%, transparent 100%), url(../img/kinkakuji.jpg);
+    background-image: linear-gradient(105deg, rgba($color-secondary-light, 0.9) 0%, rgba($color-white, 0.9) 50%, transparent 100%), url(../img/kinkakuji.jpg);
     background-size: cover;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);

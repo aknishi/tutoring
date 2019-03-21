@@ -124,7 +124,7 @@ export default class Languages extends Component {
           </div>
         </div>
         <div className="u-center-text u-margin-top-huge">
-          <a href="#section-booking" className="btn btn--green">Book a session</a>
+          <a href="#section-booking" className="btn btn--dark">Book a session</a>
         </div>
       </section>
     )
