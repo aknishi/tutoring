@@ -66,7 +66,7 @@ export default class Booking extends Component {
                     <input type="radio" className="form__radio-input" id="large" name="size" />
                     <label htmlFor="large" className="form__radio-label">
                       <span className="form__radio-button"></span>
-                      Group Tutoring
+                      Group Session
                     </label>
                   </div>``
                 </div>

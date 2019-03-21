@@ -22,7 +22,7 @@ export default class Languages extends Component {
                 </h4>
                 <div className="card__details">
                   <ul>
-                    <li>Save $ on group sessions</li>
+                    <li>Discount on group sessions</li>
                     <li>Writing</li>
                     <li>Grammar</li>
                     <li>Conversational</li>
@@ -59,7 +59,7 @@ export default class Languages extends Component {
                 </h4>
                 <div className="card__details">
                   <ul>
-                    <li>Save $ on group sessions</li>
+                    <li>Discount on group sessions</li>
                     <li>Writing</li>
                     <li>Grammar</li>
                     <li>Conversational</li>
@@ -96,7 +96,7 @@ export default class Languages extends Component {
                 </h4>
                 <div className="card__details">
                   <ul>
-                    <li>Save $ on group sessions</li>
+                    <li>Discount on group sessions</li>
                     <li>Writing</li>
                     <li>Grammar</li>
                     <li>Conversational</li>
