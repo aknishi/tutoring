@@ -20,13 +20,13 @@ export default class Navigation extends Component {
 
   render() {
     const items = [['About Us', 'about'], ['Features', 'features'], ['Languages', 'lang'], ['Reviews', 'reviews'], ['Book Now', 'booking']];
-    const listItems = items.map(([text, link]) => (
+    const listItems = items.map(([text, link], index) => (
       <li className="navigation__item"
            onClick={() => this.toggle()}
            key={text}
       >
         <a href={`#section-${link}`} className="navigation__link">
-        <span>01</span>{text}</a>
+        <span>0{index + 1}</span>{text}</a>
       </li>
     ));
 
